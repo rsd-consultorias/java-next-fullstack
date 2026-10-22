@@ -6,20 +6,32 @@
 
 **Parte 1: Java**
 1. [Fundamentos da linguagem](#módulo-1--fundamentos-da-linguagem)
+
 2. [Programação Orientada a Objetos](#módulo-2--programação-orientada-a-objetos)
+
 3. [Java intermediário](#módulo-3--java-intermediário)
+
 4. [Java moderno (8 a 21)](#módulo-4--java-moderno-8-a-21)
+
 5. [Java avançado](#módulo-5--java-avançado)
 
 **Parte 2: Spring Boot**
 6. [Primeiros passos](#módulo-6--primeiros-passos-com-spring-boot)
+
 7. [API REST](#módulo-7--api-rest)
+
 8. [Persistência com Spring Data JPA](#módulo-8--persistência-com-spring-data-jpa)
+
 9. [Configuração, profiles e arquitetura](#módulo-9--configuração-profiles-e-arquitetura)
+
 10. [Spring Security e JWT](#módulo-10--spring-security-e-jwt)
+
 11. [Testes](#módulo-11--testes)
+
 12. [Spring Boot avançado](#módulo-12--spring-boot-avançado)
+
 13. [Microsserviços e produção](#módulo-13--microsserviços-e-produção)
+
 14. [Plano de estudos e projeto final](#plano-de-estudos-sugerido)
 
 ---

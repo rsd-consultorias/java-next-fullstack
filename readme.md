@@ -21,9 +21,9 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 
 | # | Arquivo | Tecnologias | Versões de referência | Módulos | Duração sugerida | Tamanho |
 |---|---------|-------------|-----------------------|:-------:|:----------------:|:-------:|
-| 1 | [treinamento-java-springboot.md](treinamento-java-springboot.md) | Java, Spring Boot, JPA, Spring Security | Java 21 (LTS), Spring Boot 3.x | 13 | ~24 semanas | ~2.850 linhas |
-| 2 | [treinamento-nextjs.md](treinamento-nextjs.md) | JavaScript/TypeScript, React, Next.js | Next.js 16, React 19 | 15 + anexo | ~22 semanas | ~2.900 linhas |
-| 3 | [treinamento-angular.md](treinamento-angular.md) | TypeScript, Angular, RxJS, NgRx | Angular 22 | 13 + anexo | ~24 semanas | ~2.650 linhas |
+| 1 | [java-springboot.md](java-springboot.md) | Java, Spring Boot, JPA, Spring Security | Java 21 (LTS), Spring Boot 3.x | 13 | ~24 semanas | ~2.850 linhas |
+| 2 | [next.md](next.md) | JavaScript/TypeScript, React, Next.js | Next.js 16, React 19 | 15 + anexo | ~22 semanas | ~2.900 linhas |
+| 3 | [angular.md](angular.md) | TypeScript, Angular, RxJS, NgRx | Angular 22 | 13 + anexo | ~24 semanas | ~2.650 linhas |
 
 **Padrão comum a todos os arquivos**
 
@@ -38,7 +38,7 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 
 ## 1. Treinamento Java e Spring Boot
 
-📄 **Arquivo:** [treinamento-java-springboot.md](treinamento-java-springboot.md)
+📄 **Arquivo:** [java-springboot.md](java-springboot.md)
 
 **Para quem:** quem quer construir **back-ends e APIs** corporativas, partindo do zero em Java até microsserviços em produção.
 
@@ -48,32 +48,32 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [1](treinamento-java-springboot.md#módulo-1--fundamentos-da-linguagem) | Fundamentos da linguagem | JVM/JDK, tipos, controle de fluxo, arrays, strings, métodos |
-| [2](treinamento-java-springboot.md#módulo-2--programação-orientada-a-objetos) | Programação Orientada a Objetos | Quatro pilares, interfaces, enums, `equals`/`hashCode`, SOLID |
-| [3](treinamento-java-springboot.md#módulo-3--java-intermediário) | Java intermediário | Exceções, Collections, Generics, lambdas, Streams, Optional, `java.time`, NIO, Maven, JUnit 5 |
-| [4](treinamento-java-springboot.md#módulo-4--java-moderno-8-a-21) | Java moderno (8 a 21) | Records, sealed classes, pattern matching, Sequenced Collections |
-| [5](treinamento-java-springboot.md#módulo-5--java-avançado) | Java avançado | Concorrência, `CompletableFuture`, Virtual Threads, memória e GC, reflection, design patterns, Mockito |
+| [1](java-springboot.md#módulo-1--fundamentos-da-linguagem) | Fundamentos da linguagem | JVM/JDK, tipos, controle de fluxo, arrays, strings, métodos |
+| [2](java-springboot.md#módulo-2--programação-orientada-a-objetos) | Programação Orientada a Objetos | Quatro pilares, interfaces, enums, `equals`/`hashCode`, SOLID |
+| [3](java-springboot.md#módulo-3--java-intermediário) | Java intermediário | Exceções, Collections, Generics, lambdas, Streams, Optional, `java.time`, NIO, Maven, JUnit 5 |
+| [4](java-springboot.md#módulo-4--java-moderno-8-a-21) | Java moderno (8 a 21) | Records, sealed classes, pattern matching, Sequenced Collections |
+| [5](java-springboot.md#módulo-5--java-avançado) | Java avançado | Concorrência, `CompletableFuture`, Virtual Threads, memória e GC, reflection, design patterns, Mockito |
 
 ### Parte 2: Spring Boot
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [6](treinamento-java-springboot.md#módulo-6--primeiros-passos-com-spring-boot) | Primeiros passos | IoC/DI, beans, escopos, `@ConfigurationProperties` |
-| [7](treinamento-java-springboot.md#módulo-7--api-rest) | API REST | DTOs, Bean Validation, `ProblemDetail`, tratamento global de erros |
-| [8](treinamento-java-springboot.md#módulo-8--persistência-com-spring-data-jpa) | Spring Data JPA | Relacionamentos, N+1, paginação, transações, Flyway, Specifications |
-| [9](treinamento-java-springboot.md#módulo-9--configuração-profiles-e-arquitetura) | Configuração e arquitetura | Profiles, camadas, arquitetura hexagonal, logging, CORS |
-| [10](treinamento-java-springboot.md#módulo-10--spring-security-e-jwt) | Spring Security e JWT | Autenticação stateless, filtros, autorização por método |
-| [11](treinamento-java-springboot.md#módulo-11--testes) | Testes | Mockito, `@WebMvcTest`, `@DataJpaTest`, Testcontainers |
-| [12](treinamento-java-springboot.md#módulo-12--spring-boot-avançado) | Spring Boot avançado | Cache, `@Async`, eventos, AOP, `RestClient`, Resilience4j, Kafka/RabbitMQ, Spring Batch |
-| [13](treinamento-java-springboot.md#módulo-13--microsserviços-e-produção) | Microsserviços e produção | Actuator, observabilidade, Docker, Spring Cloud, GraalVM, CI/CD |
+| [6](java-springboot.md#módulo-6--primeiros-passos-com-spring-boot) | Primeiros passos | IoC/DI, beans, escopos, `@ConfigurationProperties` |
+| [7](java-springboot.md#módulo-7--api-rest) | API REST | DTOs, Bean Validation, `ProblemDetail`, tratamento global de erros |
+| [8](java-springboot.md#módulo-8--persistência-com-spring-data-jpa) | Spring Data JPA | Relacionamentos, N+1, paginação, transações, Flyway, Specifications |
+| [9](java-springboot.md#módulo-9--configuração-profiles-e-arquitetura) | Configuração e arquitetura | Profiles, camadas, arquitetura hexagonal, logging, CORS |
+| [10](java-springboot.md#módulo-10--spring-security-e-jwt) | Spring Security e JWT | Autenticação stateless, filtros, autorização por método |
+| [11](java-springboot.md#módulo-11--testes) | Testes | Mockito, `@WebMvcTest`, `@DataJpaTest`, Testcontainers |
+| [12](java-springboot.md#módulo-12--spring-boot-avançado) | Spring Boot avançado | Cache, `@Async`, eventos, AOP, `RestClient`, Resilience4j, Kafka/RabbitMQ, Spring Batch |
+| [13](java-springboot.md#módulo-13--microsserviços-e-produção) | Microsserviços e produção | Actuator, observabilidade, Docker, Spring Cloud, GraalVM, CI/CD |
 
-**Projeto final:** plataforma de e-commerce (catálogo, usuários, pedidos, pagamento com *circuit breaker*, mensageria e relatórios). [Ver plano de estudos](treinamento-java-springboot.md#plano-de-estudos-sugerido)
+**Projeto final:** plataforma de e-commerce (catálogo, usuários, pedidos, pagamento com *circuit breaker*, mensageria e relatórios). [Ver plano de estudos](java-springboot.md#plano-de-estudos-sugerido)
 
 ---
 
 ## 2. Treinamento Next.js
 
-📄 **Arquivo:** [treinamento-nextjs.md](treinamento-nextjs.md)
+📄 **Arquivo:** [next.md](next.md)
 
 **Para quem:** quem quer construir **aplicações web full-stack** com React, com foco em desempenho, SEO e backend integrado.
 
@@ -83,35 +83,35 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [1](treinamento-nextjs.md#módulo-1--javascript-moderno-e-typescript) | JavaScript moderno e TypeScript | `async/await`, desestruturação, tipos, generics, uniões discriminadas |
-| [2](treinamento-nextjs.md#módulo-2--react-essencial) | React essencial | Componentes, hooks, Context, hooks customizados, novidades do React 19 |
+| [1](next.md#módulo-1--javascript-moderno-e-typescript) | JavaScript moderno e TypeScript | `async/await`, desestruturação, tipos, generics, uniões discriminadas |
+| [2](next.md#módulo-2--react-essencial) | React essencial | Componentes, hooks, Context, hooks customizados, novidades do React 19 |
 
 ### Parte 2: Next.js
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [3](treinamento-nextjs.md#módulo-3--primeiros-passos-com-nextjs) | Primeiros passos | Criação do projeto, estrutura, `next.config.ts`, variáveis de ambiente |
-| [4](treinamento-nextjs.md#módulo-4--roteamento-app-router) | Roteamento (App Router) | Rotas dinâmicas, layouts, grupos, `loading`/`error`/`not-found` |
-| [5](treinamento-nextjs.md#módulo-5--server-components-e-client-components) | Server e Client Components | Quando usar cada um, composição, `server-only` |
-| [6](treinamento-nextjs.md#módulo-6--busca-de-dados-renderização-e-streaming) | Dados, renderização e streaming | `Suspense`, `Promise.all`, SSG/SSR/ISR, `generateStaticParams` |
-| [7](treinamento-nextjs.md#módulo-7--server-actions-e-formulários) | Server Actions e formulários | Zod, `useActionState`, `useOptimistic`, segurança |
-| [8](treinamento-nextjs.md#módulo-8--route-handlers-apis) | Route Handlers | CRUD, webhooks assinados, SSE, CORS |
-| [9](treinamento-nextjs.md#módulo-9--estilização-imagens-fontes-e-seo) | Estilo, imagens, fontes e SEO | Tailwind, `next/image`, `next/font`, metadados, sitemap, OG dinâmico |
-| [10](treinamento-nextjs.md#módulo-10--banco-de-dados-e-autenticação) | Banco de dados e autenticação | Prisma, sessão com JWT, Data Access Layer, `proxy.ts`, RBAC |
-| [11](treinamento-nextjs.md#módulo-11--cache-e-cache-components) | Cache e Cache Components | `"use cache"`, `cacheLife`, `cacheTag`, `updateTag` |
-| [12](treinamento-nextjs.md#módulo-12--recursos-avançados) | Recursos avançados | Parallel/intercepting routes, `after()`, i18n, CSP, React Compiler, OpenTelemetry |
-| [13](treinamento-nextjs.md#módulo-13--performance-e-otimização) | Performance | Core Web Vitals, `dynamic()`, diagnóstico |
-| [14](treinamento-nextjs.md#módulo-14--testes) | Testes | Vitest, Testing Library, Playwright |
-| [15](treinamento-nextjs.md#módulo-15--deploy-e-produção) | Deploy e produção | Vercel, Docker `standalone`, várias instâncias, CI/CD |
-| [Anexo A](treinamento-nextjs.md#anexo-a--pages-router-legado) | Pages Router (legado) | Tabela de equivalências e migração incremental |
+| [3](next.md#módulo-3--primeiros-passos-com-nextjs) | Primeiros passos | Criação do projeto, estrutura, `next.config.ts`, variáveis de ambiente |
+| [4](next.md#módulo-4--roteamento-app-router) | Roteamento (App Router) | Rotas dinâmicas, layouts, grupos, `loading`/`error`/`not-found` |
+| [5](next.md#módulo-5--server-components-e-client-components) | Server e Client Components | Quando usar cada um, composição, `server-only` |
+| [6](next.md#módulo-6--busca-de-dados-renderização-e-streaming) | Dados, renderização e streaming | `Suspense`, `Promise.all`, SSG/SSR/ISR, `generateStaticParams` |
+| [7](next.md#módulo-7--server-actions-e-formulários) | Server Actions e formulários | Zod, `useActionState`, `useOptimistic`, segurança |
+| [8](next.md#módulo-8--route-handlers-apis) | Route Handlers | CRUD, webhooks assinados, SSE, CORS |
+| [9](next.md#módulo-9--estilização-imagens-fontes-e-seo) | Estilo, imagens, fontes e SEO | Tailwind, `next/image`, `next/font`, metadados, sitemap, OG dinâmico |
+| [10](next.md#módulo-10--banco-de-dados-e-autenticação) | Banco de dados e autenticação | Prisma, sessão com JWT, Data Access Layer, `proxy.ts`, RBAC |
+| [11](next.md#módulo-11--cache-e-cache-components) | Cache e Cache Components | `"use cache"`, `cacheLife`, `cacheTag`, `updateTag` |
+| [12](next.md#módulo-12--recursos-avançados) | Recursos avançados | Parallel/intercepting routes, `after()`, i18n, CSP, React Compiler, OpenTelemetry |
+| [13](next.md#módulo-13--performance-e-otimização) | Performance | Core Web Vitals, `dynamic()`, diagnóstico |
+| [14](next.md#módulo-14--testes) | Testes | Vitest, Testing Library, Playwright |
+| [15](next.md#módulo-15--deploy-e-produção) | Deploy e produção | Vercel, Docker `standalone`, várias instâncias, CI/CD |
+| [Anexo A](next.md#anexo-a--pages-router-legado) | Pages Router (legado) | Tabela de equivalências e migração incremental |
 
-**Projeto final:** loja virtual com painel administrativo (catálogo com cache, autenticação, checkout com Server Actions, webhooks, modal com rotas interceptadas e E2E). [Ver plano de estudos](treinamento-nextjs.md#plano-de-estudos-sugerido)
+**Projeto final:** loja virtual com painel administrativo (catálogo com cache, autenticação, checkout com Server Actions, webhooks, modal com rotas interceptadas e E2E). [Ver plano de estudos](next.md#plano-de-estudos-sugerido)
 
 ---
 
 ## 3. Treinamento Angular
 
-📄 **Arquivo:** [treinamento-angular.md](treinamento-angular.md)
+📄 **Arquivo:** [angular.md](angular.md)
 
 **Para quem:** quem quer construir **SPAs e aplicações corporativas de grande porte** em um framework completo e opinativo.
 
@@ -121,46 +121,46 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [1](treinamento-angular.md#módulo-1--typescript-para-angular) | TypeScript para Angular | Tipos, interfaces, decorators, generics, `async/await` |
+| [1](angular.md#módulo-1--typescript-para-angular) | TypeScript para Angular | Tipos, interfaces, decorators, generics, `async/await` |
 
 ### Parte 2: Angular
 
 | Módulo | Tema | Destaques |
 |:------:|------|-----------|
-| [2](treinamento-angular.md#módulo-2--primeiros-passos-com-angular) | Primeiros passos | CLI, estrutura, `app.config.ts`, standalone, zoneless e OnPush |
-| [3](treinamento-angular.md#módulo-3--componentes-e-templates) | Componentes e templates | Binding, `@if`/`@for`/`@switch`/`@let`, `input()`/`output()`/`model()`, projeção de conteúdo |
-| [4](treinamento-angular.md#módulo-4--signals-e-reatividade) | Signals e reatividade | `signal`, `computed`, `effect`, `linkedSignal`, `resource`, `httpResource` |
-| [5](treinamento-angular.md#módulo-5--diretivas-pipes-e-injeção-de-dependência) | Diretivas, pipes e DI | `inject()`, escopos de providers, `InjectionToken`, `hostDirectives` |
-| [6](treinamento-angular.md#módulo-6--roteamento) | Roteamento | Lazy loading, guards e resolvers funcionais, `withComponentInputBinding` |
-| [7](treinamento-angular.md#módulo-7--httpclient-e-rxjs) | HttpClient e RxJS | Interceptors, `switchMap`/`concatMap`/`exhaustMap`, autocomplete com debounce |
-| [8](treinamento-angular.md#módulo-8--formulários) | Formulários | Signal Forms, Reactive Forms tipados, template-driven |
-| [9](treinamento-angular.md#módulo-9--estado-e-arquitetura) | Estado e arquitetura | Serviços com signals, NgRx SignalStore, organização por features |
-| [10](treinamento-angular.md#módulo-10--testes) | Testes | Vitest, `TestBed`, `HttpTestingController`, Playwright |
-| [11](treinamento-angular.md#módulo-11--recursos-avançados) | Recursos avançados | `@defer`, SSR e hidratação incremental, i18n, Material/CDK/Aria, micro frontends, segurança |
-| [12](treinamento-angular.md#módulo-12--performance-e-otimização) | Performance | `NgOptimizedImage`, budgets, virtual scroll, diagnóstico |
-| [13](treinamento-angular.md#módulo-13--build-deploy-e-produção) | Build, deploy e produção | Config em runtime, Docker com Nginx/SSR, CI/CD, `ng update` |
-| [Anexo A](treinamento-angular.md#anexo-a--migração-de-código-legado) | Migração de código legado | *Schematics* e tabela legado → moderno |
+| [2](angular.md#módulo-2--primeiros-passos-com-angular) | Primeiros passos | CLI, estrutura, `app.config.ts`, standalone, zoneless e OnPush |
+| [3](angular.md#módulo-3--componentes-e-templates) | Componentes e templates | Binding, `@if`/`@for`/`@switch`/`@let`, `input()`/`output()`/`model()`, projeção de conteúdo |
+| [4](angular.md#módulo-4--signals-e-reatividade) | Signals e reatividade | `signal`, `computed`, `effect`, `linkedSignal`, `resource`, `httpResource` |
+| [5](angular.md#módulo-5--diretivas-pipes-e-injeção-de-dependência) | Diretivas, pipes e DI | `inject()`, escopos de providers, `InjectionToken`, `hostDirectives` |
+| [6](angular.md#módulo-6--roteamento) | Roteamento | Lazy loading, guards e resolvers funcionais, `withComponentInputBinding` |
+| [7](angular.md#módulo-7--httpclient-e-rxjs) | HttpClient e RxJS | Interceptors, `switchMap`/`concatMap`/`exhaustMap`, autocomplete com debounce |
+| [8](angular.md#módulo-8--formulários) | Formulários | Signal Forms, Reactive Forms tipados, template-driven |
+| [9](angular.md#módulo-9--estado-e-arquitetura) | Estado e arquitetura | Serviços com signals, NgRx SignalStore, organização por features |
+| [10](angular.md#módulo-10--testes) | Testes | Vitest, `TestBed`, `HttpTestingController`, Playwright |
+| [11](angular.md#módulo-11--recursos-avançados) | Recursos avançados | `@defer`, SSR e hidratação incremental, i18n, Material/CDK/Aria, micro frontends, segurança |
+| [12](angular.md#módulo-12--performance-e-otimização) | Performance | `NgOptimizedImage`, budgets, virtual scroll, diagnóstico |
+| [13](angular.md#módulo-13--build-deploy-e-produção) | Build, deploy e produção | Config em runtime, Docker com Nginx/SSR, CI/CD, `ng update` |
+| [Anexo A](angular.md#anexo-a--migração-de-código-legado) | Migração de código legado | *Schematics* e tabela legado → moderno |
 
-**Projeto final:** plataforma de gestão de pedidos, com vitrine pública e backoffice (SSR, Signal Forms, SignalStore, `@defer`, Material/CDK e E2E). [Ver plano de estudos](treinamento-angular.md#plano-de-estudos-sugerido)
+**Projeto final:** plataforma de gestão de pedidos, com vitrine pública e backoffice (SSR, Signal Forms, SignalStore, `@defer`, Material/CDK e E2E). [Ver plano de estudos](angular.md#plano-de-estudos-sugerido)
 
 ---
 
 ## Trilhas de estudo sugeridas
 
 ### 🧱 Trilha Back-end (Java)
-1. `treinamento-java-springboot.md`, Módulos 1 a 4 (linguagem)
+1. `java-springboot.md`, Módulos 1 a 4 (linguagem)
 2. Módulos 6 a 9 (Spring Boot essencial)
 3. Módulos 10 e 11 (segurança e testes)
 4. Módulo 5 (Java avançado) e Módulos 12 e 13
 
 ### 🎨 Trilha Front-end com React (Next.js)
-1. `treinamento-nextjs.md`, Módulos 1 e 2 (JS/TS e React)
+1. `next.md`, Módulos 1 e 2 (JS/TS e React)
 2. Módulos 3 a 8 (fundamentos do Next.js)
 3. Módulos 9 a 11 (SEO, autenticação e cache)
 4. Módulos 12 a 15 (avançado, performance, testes e deploy)
 
 ### 🏢 Trilha Front-end corporativo (Angular)
-1. `treinamento-angular.md`, Módulo 1 (TypeScript)
+1. `angular.md`, Módulo 1 (TypeScript)
 2. Módulos 2 a 6 (núcleo do framework e roteamento)
 3. Módulos 7 a 9 (HTTP, formulários e arquitetura)
 4. Módulos 10 a 13 (testes, avançado, performance e deploy)
@@ -251,7 +251,7 @@ Coleção de **três materiais de estudo em Markdown**, do básico ao avançado,
 ```
 .
 ├── README.md                          ← este arquivo (índice e resumo)
-├── treinamento-java-springboot.md     ← Java + Spring Boot (13 módulos)
-├── treinamento-nextjs.md              ← JS/TS/React + Next.js (15 módulos + anexo)
-└── treinamento-angular.md             ← TypeScript + Angular (13 módulos + anexo)
+├── java-springboot.md     ← Java + Spring Boot (13 módulos)
+├── next.md              ← JS/TS/React + Next.js (15 módulos + anexo)
+└── angular.md             ← TypeScript + Angular (13 módulos + anexo)
 ```
